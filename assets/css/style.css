@@ -531,12 +531,26 @@ section .container {
 	height: 270px;
 	background-size: cover;
 }
+.projects .img-box #imgs2{
+	background: url('../img/lib2.png');
+	height: 270px;
+	background-size: cover;
+}
 .projects .img-box #imgs3{
 	background: url('../img/1.png');
 	height: 270px;
 	background-size: cover;
 }
-
+.projects .img-box #imgs4{
+	background: url('../img/hot2.png');
+	height: 270px;
+	background-size: cover;
+}
+.projects .img-box #imgs5{
+	background: url('../img/cake2.png');
+	height: 270px;
+	background-size: cover;
+}
 
 .projects .img-box #imgsd1{
 	background: url('../img/77.png');

@@ -55,7 +55,7 @@
 
   //Animated text
   var typed = new Typed('.type', {
-  strings: ['Web Developer', 'UI / UX Designer', 'Software Engineer', 'Font-End Developer'],
+  strings: ['Web Developer', 'UI / UX Designer', 'Software Developer', 'Font-End Developer'],
   typeSpeed:100,
   backSpeed:70,
   loop:true,
