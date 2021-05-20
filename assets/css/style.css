@@ -88,57 +88,34 @@ h1,h2,h3,h4,h5,h6 {
 
 #header h2 span{
 	color: #fff;
-	border-bottom: 2px solid #E5446D; /*pink*/
+	/*color: #E5446D;
+	/*border-bottom: 2px solid #E5446D; /*pink*/
 	padding-bottom: 6px;
 }
 
 /*animated text
-.wrapper {
-	display: inline-flex;
-}
-.wrapper .static-text {
-	font-size: 40px;
-	font-weight: 400;
-}
-.wrapper .dynamic-text {
-	margin-left: 15px;
-	height: 90px;
-	line-height: 90px;
-	overflow: hidden;
-}
-.dynamic-text li {
-	color: #5c4f74;
-	list-style: none;
-	font-size: 40px;
-	font-weight: 400;
-	position: relative;
-	top: 0;
-	animation: slide 6s steps(4) infinite;
-}
-@keyframes slide {
-	100%{
-		top: -360px;
-	}
-}
-.dynamic-text li span{
-	position: relative;
-}
-.dynamic-text li span::after{
-	content: '';
-	position: absolute;
-	left: 0;
-	height: 100%;
+.main-text{
 	width: 100%;
-	border-left: 2px solid #5c4f74;
-	animation: typing 1.5s steps(10) infinite;
+	height: 100%;
+	/*height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*overflow-y: auto;
 }
-@keyframes typing {
-	100%{
-		left: 100%;
-		margin: 0 -35px 0 35px;
-	}
-}*/
+.main-text strong{
+	font-size: 1.5rem;
+	width: 100%;
+	/*text-align: center;
+	color: #ffffff;
+	line-height: 50px;
 
+}*/
 
 /**/
 #header img {
@@ -673,6 +650,12 @@ section .container {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.interests .icon-box button {
+	background: transparent;
+	color: #E5446D;
+	border: none;
+}
+
 .interests .icon-box .popup {
 	width: 350px;
 	height: 280px;
@@ -684,8 +667,8 @@ section .container {
 	top: -200%;
 	transform: translate(-50%, -50%) scale(0.5);
 	transition: opacity 300ms ease-in-out,
-				top 1000ms ease-in-out,
-				transform 1000ms ease-in-out;
+	top 1000ms ease-in-out,
+	transform 1000ms ease-in-out;
 }
 .popup .active {
 	opacity: 1;

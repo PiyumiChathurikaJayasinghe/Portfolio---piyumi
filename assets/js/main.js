@@ -53,6 +53,15 @@
     }
   });
 
+  //Animated text
+  var typed = new Typed('.type', {
+  strings: ['Web Developer', 'UI / UX Designer', 'Software Engineer', 'Font-End Developer'],
+  typeSpeed:100,
+  backSpeed:70,
+  loop:true,
+  });
+
+
   // Activate/show sections on load with hash links
   if (window.location.hash) {
     var initial_nav = window.location.hash;
